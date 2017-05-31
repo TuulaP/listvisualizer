@@ -1,3 +1,83 @@
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.05em;
+	line-height: 1.15em;
+	xxcolor: transparent !important;
+}
+
+paanavi2 {	
+    background-color: #0ac2d2;
+}
+
+header {	
+    color: #0ac2d2;
+}
+
+.container-fluid {
+	background-color: #0ac2d2;
+}
+
+.pagehed {
+	font-family: 'Satisfy', serif;
+	font-weight: 300;
+	font-size: 40%;
+	text-transform: none;
+	word-spacing: 0;
+	letter-spacing: 0;
+	display: block;
+	opacity: 0.4;
+	padding-top: 20px;
+	text-align:center;
+}
+
+
+
+#paanavi,
+#alanavi {
+	text-align: left;
+	color: rgb(50, 50, 50);
+	line-height: 3em;
+	xborder-bottom: #fd7400 10px solid;
+	border-bottom: lightskyblue 1px dashed;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	xpadding-left: 2em;
+	margin: auto;
+	xalign-self: center;
+}
+
+#paanavi ul {
+	padding-left: 0px;
+	padding-bottom: 1em;
+	display: inline;
+	xdisplay: block;
+}
+
+#paanavi li {
+	font-size: 1.3em;
+	display: inline;
+	xdisplay: block;
+	padding-right: 2em;
+	border: 3px solid white;
+	padding: 0.8em;
+	background-color: #BED839;
+	margin-right: 1em;
+	border-radius: 1em;
+}
+
+#paanavi li:hover {
+	background-color: #1F8A70;
+	text-decoration: underline;
+	border-radius: 2em;
+}
+
+#paanavi a {
+	color: white;
+	text-decoration: none;
+}
+
+
 /* 
 
 Fold part from 
@@ -6,25 +86,30 @@ https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/
 
 */
 
+
 /* fold */
+
 .pt-page-rotateFoldRight {
 	-webkit-transform-origin: 0% 50%;
 	transform-origin: 0% 50%;
 	-webkit-animation: rotateFoldRight .7s both ease;
 	animation: rotateFoldRight .7s both ease;
 }
+
 .pt-page-rotateFoldLeft {
 	-webkit-transform-origin: 100% 50%;
 	transform-origin: 100% 50%;
 	-webkit-animation: rotateFoldLeft .7s both ease;
 	animation: rotateFoldLeft .7s both ease;
 }
+
 .pt-page-rotateFoldTop {
 	-webkit-transform-origin: 50% 100%;
 	transform-origin: 50% 100%;
 	-webkit-animation: rotateFoldTop .7s both ease;
 	animation: rotateFoldTop .7s both ease;
 }
+
 .pt-page-rotateFoldBottom {
 	-webkit-transform-origin: 50% 0%;
 	transform-origin: 50% 0%;
@@ -32,25 +117,30 @@ https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/
 	animation: rotateFoldBottom .7s both ease;
 }
 
+
 /* unfold */
+
 .pt-page-rotateUnfoldLeft {
 	-webkit-transform-origin: 100% 50%;
 	transform-origin: 100% 50%;
 	-webkit-animation: rotateUnfoldLeft .7s both ease;
 	animation: rotateUnfoldLeft .7s both ease;
 }
+
 .pt-page-rotateUnfoldRight {
 	-webkit-transform-origin: 0% 50%;
 	transform-origin: 0% 50%;
 	-webkit-animation: rotateUnfoldRight .7s both ease;
 	animation: rotateUnfoldRight .7s both ease;
 }
+
 .pt-page-rotateUnfoldTop {
 	-webkit-transform-origin: 50% 100%;
 	transform-origin: 50% 100%;
 	-webkit-animation: rotateUnfoldTop .7s both ease;
 	animation: rotateUnfoldTop .7s both ease;
 }
+
 .pt-page-rotateUnfoldBottom {
 	-webkit-transform-origin: 50% 0%;
 	transform-origin: 50% 0%;

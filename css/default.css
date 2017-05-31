@@ -37,8 +37,9 @@ a:hover {
 
 /* Header Style */
 .codrops-top {
-	background: #fff;
-	background: rgba(255, 255, 255, 0.1);
+	xbackground: #fff;
+	xbackground: rgba(255, 255, 255, 0.1); 
+    background-color: #0ac2d2;
 	text-transform: uppercase;
 	position: fixed;
 	width: 100%;

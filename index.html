@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Collection of Page Transitions</title>
+    <title>Sample of science fiction from NatLibFi collections</title>
     <meta name="description" content="Collections of National Library of Finland and science-fiction" />
     <meta name="keywords" content="natlibfi, worldcon17, nlf" />
     <meta name="author" content="National Library of Finland" />
@@ -18,6 +18,18 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/fold.css" />
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/buffer.js"></script>
+
+    <script src="js/rss-parser.js"></script>
+
+    <script>
+        RSSParser.parseURL('https://www.reddit.com/.rss', function (err, parsed) {
+            console.log(parsed.feed.title);
+            parsed.feed.entries.forEach(function (entry) {
+                console.log(entry.title + ':' + entry.link);
+            })
+        })
+    </script>
 
 </head>
 
@@ -25,18 +37,13 @@
     <div class="container-fluid">
         <nav id="paanavi">
             <ul>
-                <!--<li><a href="#ch1">Kpl1</a></li>
-                <!-- jos ala absolute/relative
-                <li><a href="#ch2">Kpl2</a></li>
-                <li><a href="#ch3">Kpl3</a></li>
-                <li><a href="#ch4">Kpl4</a></li>-->
                 <div class="codrops-top clearfix">
                     <a href="http://www.kansalliskirjasto.fi"><span>Kansalliskirjasto.fi</span></a>
                     <span class="right"><i class="fa fa-book fa-fw" aria-hidden="true"></i><a href="https://kansalliskirjasto.finna.fi/List/473896"><span>Booklist in Finna</span></a>
                     </span>
                 </div>
                 <div class="col-lg-12 pagehed ">
-                <h3><span>Collections of National Library & Science fiction <br> Tieteiskirjallisuus & Kansalliskirjaston kokoelmat</span></h3>
+                    <h3><span>Collections of National Library & Science fiction <br> Tieteiskirjallisuus & Kansalliskirjaston kokoelmat</span></h3>
 
         </nav>
         </div>
@@ -50,18 +57,26 @@
         <button id="iteratePrev" class="pt-touch-button">Previous
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
             </button>
-
-
     </div>
     <!-- /triggers -->
 
     <!-- sisältö-->
     <div id="pt-main" class="pt-perspective">
-        <!--<div class="pt-page pt-page-1">
-            <h1><span>Collections of National Library & Science fiction ja Kansalliskirjaston kokoelmat</span></h1>
+        <!--<div class="row pt-page pt-page-2">
+            <div id="r1c1" class="row pt-page pt-page-2 col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <i class="fa fa-book fa-5x"></i>
+            </div>
+            <div id="r1c2" class="row pt-page pt-page-2 col-xs-12 col-sm-12 col-md-4 col-lg-4">AAA</div>
+            <div id="r1c3" class="row pt-page pt-page-2 col-xs-12 col-sm-12 col-md-4 col-lg-4">CCC</div>
         </div>-->
+
         <div class="pt-page pt-page-2">
-            <h1><span>A collection of</span><strong>Page2</strong> Transitions</h1>
+            <i class="fa fa-book fa-4x"></i><h3><strong>Lonkeron aika. 1. osa, Mustien kukkien salaisuus</strong>
+            <span>Braineater Megatron</span>&nbsp;&nbsp;<a target="_new" href="https://kansalliskirjasto.finna.fi/Record/fennica.1105386"><i class="fa fa-external-link" aria-hidden="true"></i>
+Saatavuus/Availability</A>
+            <font color="blue"><i class="fa fa-info-circle" aria-hidden="true"></i></font></h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque fugit eveniet eius non rerum eum odio
+             distinctio molestiae. Molestiae iste cum ducimus hic quasi minus, deleniti itaque et asperiores excepturi.</font>
         </div>
         <div class="pt-page pt-page-3">
             <h1><span>A collection of</span><strong>Page3</strong> Transitions</h1>
@@ -81,16 +96,17 @@
         <p>Your browser does not support CSS animations.</p>
     </div>
 
-<div class="container">
+    <div class="container pt-page pt-page-1">
         <div class="row">
             <div id="eka" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">Kolmannes</div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">Kolmannes</div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">Kolmannes</div>
         </div>
     </div>
-    <div class="container" class="pt-page col-lg-13">
+    <div class="container pt-page pt-page-1" class="pt-page col-lg-13">
         <div class="row">footer...
-        </div></div>
+        </div>
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

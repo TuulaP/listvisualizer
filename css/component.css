@@ -26,6 +26,7 @@ html, body { height: 100%; }
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+	text-align: center;
 }
 
 .pt-page-current,
@@ -73,28 +74,37 @@ html, body { height: 100%; }
 	color: rgba(0,0,0,0.1);
 }
 
-.pt-page-1,	 .pt-page-8, .pt-page-14, .pt-page-19 {
+.pt-page-1,	 .pt-page-8, .pt-page-14, .pt-page-19, 
+.pt-page-5, .pt-page-12, .pt-page-17, .pt-page-23,
+.pt-page-25
+{
 	background: #0ac2d2;
 }
 
-.pt-page-2, .pt-page-9, .pt-page-8, .pt-page-20 {
+.pt-page-0, .pt-page-2, .pt-page-9, .pt-page-8, .pt-page-20, 
+.pt-page-4, .pt-page-11, .pt-page-16, .pt-page-22,
+.pt-page-26, .pt-page-7
+{
 	background: #7bb7fa;
 }
 
-.pt-page-3 .pt-page-10, .pt-page-15, .pt-page-21 {
+.pt-page-3, .pt-page-10, .pt-page-15, .pt-page-21, 
+.pt-page-6, .pt-page-13, .pt-page-18 , .pt-page-24
+{
+
 	background: #60d7a9;
 }
 
 .pt-page-4, .pt-page-11, .pt-page-16, .pt-page-22 {
-	background: #fdc162;
+	xbackground: #fdc162;
 }
 
 .pt-page-5, .pt-page-12, .pt-page-17, .pt-page-23 {
-	background: #fd6a62;
+	xbackground: #fd6a62;
 }
 
 .pt-page-6, .pt-page-13, .pt-page-18 , .pt-page-24{
-	background: #f68dbb;
+	xbackground: #f68dbb;
 }
 
 /* Triggers (menu and button) */

@@ -4,7 +4,7 @@ var PageTransitions = (function() {
 		$pages = $main.children( 'div.pt-page' ),
 		$iterate = $( '#iterateEffects' ),
 		$iteratePrev = $('#iteratePrev' ),
-		animcursor = 62, //46,
+		animcursor = 46, //46,
 		pagesCount = $pages.length,
 		current = 0,
 		isAnimating = false,
@@ -56,7 +56,7 @@ var PageTransitions = (function() {
 		 //if( animcursor > 67 ) {
 			//	animcursor = 1;
 			//}
-			nextPage( 63 );
+			nextPage( 47 );
 			//++animcursor;
 		} );
 
